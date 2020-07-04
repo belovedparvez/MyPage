@@ -69,8 +69,7 @@ section{
 
 .headline{
     position: absolute;
-    
-    left: 10%;   
+    left: 10%;
     transform: translate(-20%,-70%);
     color: white;
     z-index: 3;
