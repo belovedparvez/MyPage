@@ -3,6 +3,7 @@ const slider = document.querySelector(".slider");
 const logo = document.querySelector("#logo");
 const monkey = document.querySelector(".monkey");
 const headline = document.querySelector(".headline");
+const iconlink = document.querySelector(".icon-link");
 
 const t1 = new TimelineMax();
 
@@ -12,3 +13,4 @@ t1.fromTo(hero,1,{height: "0%"},{height: "80%", ease: Power2.easeInOut })
 .fromTo(logo,0.5,{opacity:0,x:30},{opacity:1,x:0},"-=0.5")
 .fromTo(monkey,0.5,{opacity:0,x:30},{opacity:1,x:0},"-=0.5")
 .fromTo(headline,0.5,{opacity:0,x:30},{opacity:1,x:0},"-=0.5")
+.fromTo(iconlink,0.5,{opacity:0,x:30},{opacity:1,x:0},"-=0.5")
