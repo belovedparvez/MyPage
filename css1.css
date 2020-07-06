@@ -53,12 +53,18 @@ section{
 }
 
 @media screen and (min-width: 601px) {
+    .headline{
+        font-size: 90px;
+    }
     .main-img{      
         content:url("./image/bg1.jpg");
     } 
 }
 
 @media screen and (max-width: 600px) {
+    .headline{
+        font-size: 40px;
+    }
     .main-img{      
         content:url("./image/mine.jpeg");
     } 
@@ -66,9 +72,8 @@ section{
 
 .headline{
     position: absolute;
-    font-size: 7vh;
     left: 10%;
-    top: 70%;
+    bottom: 10%;
     transform: translate(-20%,-70%);
     color: white;
     z-index: 3;
@@ -78,7 +83,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     left: 10%;
-    top: 85%;
+    bottom: 5%;
     transform: translate(0%,-70%);
     z-index: 3;
 }
