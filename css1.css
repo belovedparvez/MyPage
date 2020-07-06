@@ -63,7 +63,7 @@ section{
 
 @media screen and (max-width: 600px) {
     .headline{
-        font-size: 30px;
+        font-size: 5vh;
     }
     .main-img{      
         content:url("./image/mine.jpeg");
