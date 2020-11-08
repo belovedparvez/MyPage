@@ -54,7 +54,7 @@ section{
 
 @media screen and (min-width: 601px) {
     .headline{
-        font-size: 40px;
+        font-size: 5px;
     }
     .main-img{      
         content:url("./image/bg1.jpg");
@@ -63,7 +63,7 @@ section{
 
 @media screen and (max-width: 600px) {
     .headline{
-        font-size: 3vh;
+        font-size: 5vh;
     }
     .main-img{      
         content:url("./image/mine.jpeg");
